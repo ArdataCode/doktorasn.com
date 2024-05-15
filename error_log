@@ -1,0 +1,247 @@
+[08-Jan-2024 02:14:22 UTC] Cron reschedule event error for hook: wp_version_check, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[09-Jan-2024 02:14:11 UTC] Cron reschedule event error for hook: recovery_mode_clean_expired_keys, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[31-Jan-2024 01:28:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/doktorasn.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/doktorasn.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/websit19/doktorasn.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/websit19/doktorasn.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/websit19/doktorasn.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/websit19/doktorasn.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/websit19/doktorasn.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/websit19/doktorasn.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/websit19/doktorasn.com/wp-includes/update.php(292): do_action()
+#12 /home/websit19/doktorasn.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/websit19/doktorasn.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/websit19/doktorasn.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/websit19/doktorasn.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php on line 874
+[31-Jan-2024 02:36:31 UTC] Cron reschedule event error for hook: elementor_1_elementor_updater_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"elementor_1_elementor_updater_cron_interval","args":[],"interval":300}
+[19-Feb-2024 03:31:52 UTC] Cron reschedule event error for hook: elementor_1_elementor_updater_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"elementor_1_elementor_updater_cron_interval","args":[],"interval":300}
+[27-Feb-2024 08:33:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/doktorasn.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/doktorasn.com/wp-includes/pluggable.php(2041): wp_mail()
+#5 /home/websit19/doktorasn.com/wp-includes/comment.php(2346): wp_notify_moderator()
+#6 /home/websit19/doktorasn.com/wp-includes/class-wp-hook.php(326): wp_new_comment_notify_moderator()
+#7 /home/websit19/doktorasn.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/websit19/doktorasn.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/websit19/doktorasn.com/wp-includes/comment.php(2320): do_action()
+#10 /home/websit19/doktorasn.com/wp-includes/comment.php(3671): wp_new_comment()
+#11 /home/websit19/doktorasn.com/wp-comments-post.php(25): wp_handle_comment_submission()
+#12 {main}
+  thrown in /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php on line 874
+[01-Mar-2024 04:10:18 UTC] Cron reschedule event error for hook: elementor_1_elementor_pro_updater_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"elementor_1_elementor_pro_updater_cron_interval","args":[],"interval":300}
+[14-Mar-2024 09:11:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/doktorasn.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/doktorasn.com/wp-includes/pluggable.php(2041): wp_mail()
+#5 /home/websit19/doktorasn.com/wp-includes/comment.php(2346): wp_notify_moderator()
+#6 /home/websit19/doktorasn.com/wp-includes/class-wp-hook.php(326): wp_new_comment_notify_moderator()
+#7 /home/websit19/doktorasn.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/websit19/doktorasn.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/websit19/doktorasn.com/wp-includes/comment.php(2320): do_action()
+#10 /home/websit19/doktorasn.com/wp-includes/comment.php(3671): wp_new_comment()
+#11 /home/websit19/doktorasn.com/wp-comments-post.php(25): wp_handle_comment_submission()
+#12 {main}
+  thrown in /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php on line 874
+[03-Apr-2024 02:48:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/doktorasn.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/doktorasn.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/websit19/doktorasn.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/websit19/doktorasn.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/websit19/doktorasn.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/websit19/doktorasn.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/websit19/doktorasn.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/websit19/doktorasn.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/websit19/doktorasn.com/wp-includes/update.php(292): do_action()
+#12 /home/websit19/doktorasn.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/websit19/doktorasn.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/websit19/doktorasn.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/websit19/doktorasn.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php on line 881
+[09-Apr-2024 22:48:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/doktorasn.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/doktorasn.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/websit19/doktorasn.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/websit19/doktorasn.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/websit19/doktorasn.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/websit19/doktorasn.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/websit19/doktorasn.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/websit19/doktorasn.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/websit19/doktorasn.com/wp-includes/update.php(292): do_action()
+#12 /home/websit19/doktorasn.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/websit19/doktorasn.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/websit19/doktorasn.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/websit19/doktorasn.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php on line 881
+[25-Apr-2024 09:29:52 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 09:29:52 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 09:29:52 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 09:29:52 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 09:29:52 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 09:29:52 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 09:29:52 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 09:29:52 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 09:29:52 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 09:29:52 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 09:29:53 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 09:29:53 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 09:29:53 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 09:29:53 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 09:29:53 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 09:29:53 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 09:29:53 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 09:29:53 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 09:29:53 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 09:29:53 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 10:43:24 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 10:43:24 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 10:43:24 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 10:43:24 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 10:43:24 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 10:43:24 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 10:43:24 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 10:43:24 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 10:43:24 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 10:43:24 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 13:28:06 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 13:28:06 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 13:28:06 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 13:28:06 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 13:28:06 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 13:28:06 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 13:28:06 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 13:28:06 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 13:28:06 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 13:28:06 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 13:28:12 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 13:28:12 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 13:28:12 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 13:28:12 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 13:28:12 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 13:28:12 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 13:28:12 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 13:28:12 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 13:28:12 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 13:28:12 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 13:29:00 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 13:29:00 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 13:29:00 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 13:29:00 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 13:29:00 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 13:29:00 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 13:29:00 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 13:29:00 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 13:29:00 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 13:29:00 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 13:55:09 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 13:55:09 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 13:55:09 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 13:55:09 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 13:55:09 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 13:55:09 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 13:55:09 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 13:55:09 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 13:55:09 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 13:55:09 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 15:11:36 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 15:11:36 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 15:11:36 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 15:11:36 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 15:11:36 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 15:11:36 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 15:11:36 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 15:11:36 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 15:11:36 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 15:11:36 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 22:28:01 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 22:28:01 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 22:28:01 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 22:28:01 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 22:28:01 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 22:28:01 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 22:28:01 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 22:28:01 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 22:28:01 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 22:28:01 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[26-Apr-2024 01:10:52 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[26-Apr-2024 01:10:52 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[26-Apr-2024 01:10:52 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[26-Apr-2024 01:10:52 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[26-Apr-2024 01:10:52 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[26-Apr-2024 01:10:52 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[26-Apr-2024 01:10:52 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[26-Apr-2024 01:10:52 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[26-Apr-2024 01:10:52 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[26-Apr-2024 01:10:52 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[26-Apr-2024 01:44:13 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[26-Apr-2024 01:44:13 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[26-Apr-2024 01:44:13 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[26-Apr-2024 01:44:13 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[26-Apr-2024 01:44:13 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[26-Apr-2024 01:44:13 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[26-Apr-2024 01:44:13 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[26-Apr-2024 01:44:13 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[26-Apr-2024 01:44:13 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[26-Apr-2024 01:44:13 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[26-Apr-2024 03:34:10 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[26-Apr-2024 03:34:10 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[26-Apr-2024 03:34:10 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[26-Apr-2024 03:34:10 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[26-Apr-2024 03:34:10 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[26-Apr-2024 03:34:10 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[26-Apr-2024 03:34:10 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[26-Apr-2024 03:34:10 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[26-Apr-2024 03:34:10 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[26-Apr-2024 03:34:10 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[26-Apr-2024 09:28:31 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[26-Apr-2024 09:28:31 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[26-Apr-2024 09:28:31 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[26-Apr-2024 09:28:31 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[26-Apr-2024 09:28:31 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[26-Apr-2024 09:28:31 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[26-Apr-2024 09:28:31 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[26-Apr-2024 09:28:31 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[26-Apr-2024 09:28:31 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[26-Apr-2024 09:28:31 UTC] PHP Warning:  Undefined array key "icon" in /home/websit19/doktorasn.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[08-May-2024 01:13:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/doktorasn.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/doktorasn.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/websit19/doktorasn.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/websit19/doktorasn.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/websit19/doktorasn.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/websit19/doktorasn.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/websit19/doktorasn.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/websit19/doktorasn.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/websit19/doktorasn.com/wp-includes/update.php(292): do_action()
+#12 /home/websit19/doktorasn.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/websit19/doktorasn.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/websit19/doktorasn.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/websit19/doktorasn.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/websit19/doktorasn.com/wp-includes/PHPMailer/PHPMailer.php on line 881
